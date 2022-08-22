@@ -1,0 +1,136 @@
+.navbar .navbar-brand {
+	color: black;
+	font-size: 1rem;
+}
+
+.banner {
+    background-image: url('../img/pdx.jpg');
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-size: cover;
+    color:black;
+}
+
+#nav{
+	background-color: black !important;
+}
+
+div div.rating span.fa.fa-star,.fa-star-half-o {
+    position: relative;
+    /* font-size: 24px; */
+    color: red;
+}
+
+.select_item{
+        list-style-type: none;
+        list-style-position: outside;
+        list-style-image: none;
+        background-color: rgb(194, 214, 15);
+        color: #f7f7f9;
+}
+
+div.rating span.fa.fa-star:hover,.fa-star-half-o:hover{
+    position: relative;
+    color: rgb(194, 214, 15);;
+    font-size: 24px;
+}
+
+
+/* newsletter  	background-color: #64ce83;*/
+#flashMessage2 {
+	display: none;
+	color: white;
+
+	padding: 10px;
+	border-radius: 5px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.signin {
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+}
+
+.spacing {
+	padding-top: 60px;
+}
+
+
+.form-with-border {
+	position: relative;
+	padding: 1rem;
+	margin: 4rem 13rem;
+	border: solid #f7f7f9;
+	border-width: .2rem;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img {
+    width: 350px
+}
+
+.bg-inf{
+    color:black !important;
+}
+
+.star {
+    color: red
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff
+}
+
+.bg-cart:hover {
+    color: #fff
+}
+
+.bg-buy {
+    background-color: rgb(194, 214, 15);;
+    color: #fff;
+    padding-right: 29px
+}
+
+.bg-buy:hover {
+    color: #fff
+}
+
+a {
+    text-decoration: none !important
+}
